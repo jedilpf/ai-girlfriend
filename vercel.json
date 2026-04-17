@@ -1,0 +1,14 @@
+{
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "functions": {
+    "api/chat/index.ts": {
+      "runtime": "@vercel/node@5.1.0"
+    }
+  }
+}
