@@ -10,6 +10,5 @@
     "api/chat/index.ts": {
       "runtime": "@vercel/node@5.1.0"
     }
-  },
-  "nodeVersion": "22.x"
+  }
 }
